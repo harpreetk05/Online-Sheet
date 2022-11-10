@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { OnlineTestComponent } from './online-test.component';
 
 const routes: Routes = [{
-  path:'angular', component:OnlineTestComponent
+  path:':id', component:OnlineTestComponent
 }];
 
 @NgModule({

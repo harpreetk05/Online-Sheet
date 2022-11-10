@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './scriptlanes-heading.component.html',
   styleUrls: ['./scriptlanes-heading.component.scss']
 })
-export class ScriptlanesHeadingComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class ScriptlanesHeadingComponent {
 
 }

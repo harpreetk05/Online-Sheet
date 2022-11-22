@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ScriptlanesHeadingComponent } from './component/scriptlanes-heading/scriptlanes-heading.component';
 import { OnlineTestModule } from './pages/online-test/online-test.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { OnlineTestModule } from './pages/online-test/online-test.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OnlineTestModule
+    OnlineTestModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

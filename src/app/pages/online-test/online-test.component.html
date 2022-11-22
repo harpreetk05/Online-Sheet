@@ -1,1 +1,15 @@
-<p>online-test works!</p>
+<div class="main-div">
+    <mat-card>
+      <div *ngFor="let q of data; let i=index">
+       <b><app-question-heading [qsno]="q.qsnumber"></app-question-heading></b><br>
+        <app-question [que]="q.ques"></app-question>
+        <app-option [opt]="q.option" (userSelected)="userEvent($event,i)"></app-option><br><br>
+      </div>
+      <button type="submit" mat-raised-button color="primary" (click)="onsubmit()" [disabled]="isdisable()" >Submit</button>
+      <button class="button-with-icon" type="button" mat-raised-button color="white"
+      (onClick)="reset()">Reset</button>
+      </mat-card>
+</div>
+<div class="last-content">
+  <b>Total Score :{{total}}</b>
+</div>

@@ -1,0 +1,26 @@
+.main-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(216, 206, 206);
+}
+.mat-card {
+  width: 80%;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 10px 10px 5px rgb(155, 151, 151);
+}
+.last-content {
+  font-size: larger;
+  background-color: rgb(216, 206, 206);
+}
+.spinner {
+  display: inline-block;
+  margin: 0 4px 0 -4px;
+}
+.heading {
+  font-size: medium;
+}
